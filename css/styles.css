@@ -143,6 +143,8 @@ img {
 .section-container {
   background-color: var(--color-navyblue);
   padding: 188px 0;
+  background-size: 1440px;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)), #2e2f42;
 }
 
 .header-index {
@@ -215,6 +217,8 @@ button:hover {
   background: var(--color-ocean);
   color: var(--color-white);
   border: 1px solid transparent;
+  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12),
+    0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
 }
 
 button:focus {
@@ -281,6 +285,9 @@ body {
   background-color: var(--color-white);
   flex-basis: calc((100% - 3 * 24px) / 4);
   border-radius: 0px 0px 4px 4px;
+  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
+    0px 1px 1px 0px rgba(46, 47, 66, 0.16),
+    0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
 
 .header-list-wrapper {
@@ -344,6 +351,18 @@ body {
 
 .list-style-portfolio {
   flex-basis: calc((100% - 48px) / 3);
+}
+
+.list-style-portfolio:hover {
+  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
+    0px 1px 1px 0px rgba(46, 47, 66, 0.16),
+    0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+}
+
+.list-style-portfolio:focus {
+  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
+    0px 1px 1px 0px rgba(46, 47, 66, 0.16),
+    0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
 
 .link-style {
