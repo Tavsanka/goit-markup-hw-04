@@ -378,14 +378,17 @@ body {
 }
 
 .social-icon-color {
-  width: 16px;
-  height: 16px;
   fill: #f4f4fd;
   display: inline-block;
   width: 1em;
   height: 1em;
   stroke-width: 0;
   stroke: currentColor;
+}
+
+svg {
+  width: 16px;
+  height: 16px;
 }
 
 .photo-list-name {
@@ -531,6 +534,9 @@ body {
 
 .footer-social-icon-color {
   fill: var(--color-cloud);
+}
+
+svg {
   width: 24px;
   height: 24px;
 }
