@@ -386,11 +386,6 @@ body {
   stroke: currentColor;
 }
 
-svg {
-  width: 16px;
-  height: 16px;
-}
-
 .photo-list-name {
   font-size: 20px;
   font-weight: 500;
