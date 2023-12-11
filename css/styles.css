@@ -530,8 +530,3 @@ body {
 .footer-social-icon-color {
   fill: var(--color-cloud);
 }
-
-svg {
-  width: 24px;
-  height: 24px;
-}
