@@ -412,6 +412,7 @@ body {
 
 .link-decoration {
   text-decoration: none;
+  display: block;
 }
 
 .list {
