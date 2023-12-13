@@ -69,7 +69,6 @@ img {
 
 .nav-menu-link {
   color: var(--color-navyblue);
-  font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -77,10 +76,7 @@ img {
   text-decoration: none;
 }
 
-.nav-menu-link:hover {
-  color: var(--color-ocean);
-}
-
+.nav-menu-link:hover,
 .nav-menu-link:focus {
   color: var(--color-ocean);
 }
@@ -100,7 +96,8 @@ img {
   text-decoration: none;
 }
 
-.logo .studio-highlight {
+.logo,
+.studio-highlight {
   color: var(--color-navyblue);
 }
 
@@ -115,32 +112,20 @@ img {
 
 .header-list-type {
   font-size: 16px;
-  font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--color-slate);
-}
-
-.contact-list {
-  display: flex;
-  margin: 0 auto;
-  gap: 40px;
-  list-style: none;
 }
 
 .contact-link {
   color: var(--color-slate);
   font-style: normal;
-  font-size: 16px;
-  font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
   text-decoration: none;
 }
 
-.contact-link:hover {
-  color: var(--color-ocean);
-}
+.contact-link:hover,
 .contact-link:focus {
   color: var(--color-ocean);
 }
@@ -188,10 +173,7 @@ img {
   margin: 0 auto;
 }
 
-.button-header:hover {
-  background-color: var(--color-ocean);
-}
-
+.button-header:hover,
 .button-header:focus {
   background-color: var(--color-ocean);
 }
@@ -225,14 +207,7 @@ button {
   border: 1px solid #e7e9fc;
 }
 
-button:hover {
-  background: var(--color-ocean);
-  color: var(--color-white);
-  border: 1px solid transparent;
-  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12),
-    0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
-}
-
+button:hover,
 button:focus {
   background: var(--color-ocean);
   color: var(--color-white);
@@ -241,8 +216,12 @@ button:focus {
     0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
 }
 
-.section-two {
+.section-two-five {
   padding: 120px 0;
+}
+
+.section-tree {
+  padding-bottom: 120px;
 }
 
 .list-wrapper {
@@ -280,10 +259,6 @@ body {
 
 .background {
   background-color: var(--color-white);
-}
-
-.section-tree {
-  padding-bottom: 120px;
 }
 
 .title-style {
@@ -334,8 +309,6 @@ body {
 }
 
 .position-name {
-  font-size: 16px;
-  font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--color-slate);
@@ -366,10 +339,7 @@ body {
   justify-content: center;
 }
 
-.team-social-icon-link:hover {
-  background-color: var(--color-ocean);
-}
-
+.team-social-icon-link:hover,
 .team-social-icon-link:focus {
   background-color: var(--color-ocean);
 }
@@ -394,8 +364,6 @@ body {
 
 .photo-list-type {
   font-family: Roboto;
-  font-size: 16px;
-  font-weight: 400;
   line-height: 1.5;
   color: var(--color-slate);
   letter-spacing: 0.02em;
@@ -425,11 +393,7 @@ body {
   display: block;
 }
 
-.link-decoration:hover {
-  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
-    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-}
-
+.link-decoration:hover,
 .link-decoration:focus {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
@@ -443,21 +407,11 @@ body {
   height: auto;
 }
 
-.section-five {
-  padding: 120px 0;
-}
-
 .customers {
   font-size: 36px;
   line-height: 1.11;
   color: var(--color-navyblue);
   margin-bottom: 72px;
-}
-
-.logo-icons-position {
-  display: flex;
-  gap: 24px;
-  list-style: none;
 }
 
 .logo-icon {
@@ -476,11 +430,7 @@ body {
   color: var(--color-light-slate);
 }
 
-.logo-icon-link:hover {
-  border-color: var(--color-ocean);
-  color: var(--color-ocean);
-}
-
+.logo-icon-link:hover,
 .logo-icon-link:focus {
   border-color: var(--color-ocean);
   color: var(--color-ocean);
@@ -525,8 +475,6 @@ body {
 
 .footer-text {
   color: var(--color-cloud);
-  font-size: 16px;
-  font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
   max-width: 264px;
@@ -534,7 +482,6 @@ body {
 
 .social-text {
   font-weight: 500;
-  font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--color-white);
@@ -543,7 +490,6 @@ body {
 
 .footer-social-position {
   display: flex;
-
   gap: 16px;
 }
 
@@ -564,10 +510,7 @@ body {
   justify-content: center;
 }
 
-.footer-social-link:focus {
-  background-color: var(--color-green);
-}
-
+.footer-social-link:focus,
 .footer-social-link:hover {
   background-color: var(--color-green);
 }
